@@ -10,7 +10,7 @@ spec:
     - host: lahacks.dev
       http:
         paths:
-          - path: /api/auth/?(.*)
+          - path: /api/users/?(.*)
             pathType: Prefix
             backend:
               service:
